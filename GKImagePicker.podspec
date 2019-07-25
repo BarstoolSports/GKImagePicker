@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.watchos.deployment_target = '2.0'
   s.tvos.deployment_target = '10.0'
 
-  s.source_files = 'GKClasses/**/*.{h,swift}'
+  s.source_files = 'GKClasses/**/*.{h,m,swift}'
   s.public_header_files = 'GKClasses/**/*.h'
 
 end
