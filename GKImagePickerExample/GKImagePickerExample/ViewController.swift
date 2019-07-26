@@ -11,7 +11,11 @@ import GKImagePicker
 
 class ViewController: UIViewController {
     
-    @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var imageView: UIImageView! {
+        didSet {
+            imageView.contentMode = .scaleAspectFit
+        }
+    }
     
     private let imagePicker: GKImagePicker = {
         let imagePicker = GKImagePicker()
