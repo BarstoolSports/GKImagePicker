@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1380FA8663E85E0BCE712AE357C4219F /* GKImageCropView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD0F7F4C5D1E5DC539D65ACEAFC56ECA /* GKImageCropView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1794E9FD53FFF3B8B5F9B0A446DA5E22 /* GKResizeableCropOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = C454C321420E241FB0FA36BD6C9311F7 /* GKResizeableCropOverlayView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		27EA9927203F3BC0454E77DC75BC1763 /* GKImageCropOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E5E9AADF2FDD8B1B122CFCB99A232FE /* GKImageCropOverlayView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		28ED2D822460843780EA08845E80DECD /* GKImagePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D5491319982BF60A1267452E02AC5D /* GKImagePicker-dummy.m */; };
+		3EF27442AE1F012E1AF73A85B6575805 /* GKCropBorderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 79598B431FECC00C0383254DF16029B9 /* GKCropBorderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69F52F29A683CF4C38704F5A0CEF2589 /* GKImageCropView.h in Headers */ = {isa = PBXBuildFile; fileRef = 01995853F8E83A95D815D58CBCA67757 /* GKImageCropView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FFCB3422732C321CC6D100786797E90 /* GKImagePicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 92CB754FF2E8E3359ADBBF9586031D6A /* GKImagePicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91F39B5C59A884E4037E382AFCC8077B /* GKResizeableCropOverlayView.h in Headers */ = {isa = PBXBuildFile; fileRef = D64B681BE23C019BAF5F30581AEE5547 /* GKResizeableCropOverlayView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC81B17C5941505687E8B6E5BC6C265A /* GKImagePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = F987D963099F18BF1AA82CF93AEE5BF8 /* GKImagePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACEF1790B0F102E1588B097E6CAC8BBE /* GKImageCropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69BE65787AC7AA8336E649C8324A8CC5 /* GKImageCropViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B36B695703FA47C8F38F30B974560666 /* GKImageCropViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B2E0F9B4C9CDE4AFEA8B161EF74FEEC8 /* GKImageCropViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF8FC68107FD19F5D0EAFF3002983BF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29D0AF76E0F62E217FAE1485D87EB462 /* Foundation.framework */; };
+		C3C901FC3D02B2A7C3DC23EDB6BA8331 /* GKImageCropOverlayView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ECAC1218F1080BE9DA10C6A70D15EAC /* GKImageCropOverlayView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D48737E634E232B5B9BA9DC3D0A62BD2 /* GKCropBorderView.m in Sources */ = {isa = PBXBuildFile; fileRef = ADCA4BC16DB3813DEA5A7EE485F6D2E9 /* GKCropBorderView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E8DB24D1F19C9786282ECD4893020ADE /* GKImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4B8CB17B73FDD0B08692D2E8E05169 /* GKImagePicker.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01995853F8E83A95D815D58CBCA67757 /* GKImageCropView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GKImageCropView.h; path = GKClasses/GKImageCropView.h; sourceTree = "<group>"; };
+		07110A98D8E2CC6B8CA343B8E37750B4 /* GKImagePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GKImagePicker.framework; path = GKImagePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29D0AF76E0F62E217FAE1485D87EB462 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		336552A54E445A22E9109CE012D338B9 /* GKImagePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GKImagePicker-prefix.pch"; sourceTree = "<group>"; };
+		41D5491319982BF60A1267452E02AC5D /* GKImagePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GKImagePicker-dummy.m"; sourceTree = "<group>"; };
+		4E5E9AADF2FDD8B1B122CFCB99A232FE /* GKImageCropOverlayView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GKImageCropOverlayView.m; path = GKClasses/GKImageCropOverlayView.m; sourceTree = "<group>"; };
+		69BE65787AC7AA8336E649C8324A8CC5 /* GKImageCropViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GKImageCropViewController.m; path = GKClasses/GKImageCropViewController.m; sourceTree = "<group>"; };
+		71DA4C4CDC867733B702095ADE3B74BE /* GKImagePicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GKImagePicker.modulemap; sourceTree = "<group>"; };
+		79598B431FECC00C0383254DF16029B9 /* GKCropBorderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GKCropBorderView.h; path = GKClasses/GKCropBorderView.h; sourceTree = "<group>"; };
+		8ECAC1218F1080BE9DA10C6A70D15EAC /* GKImageCropOverlayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GKImageCropOverlayView.h; path = GKClasses/GKImageCropOverlayView.h; sourceTree = "<group>"; };
+		92CB754FF2E8E3359ADBBF9586031D6A /* GKImagePicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GKImagePicker-umbrella.h"; sourceTree = "<group>"; };
+		A0A2307EB89FD786CEA258ADC258EDA6 /* GKImagePicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GKImagePicker.xcconfig; sourceTree = "<group>"; };
+		ADCA4BC16DB3813DEA5A7EE485F6D2E9 /* GKCropBorderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GKCropBorderView.m; path = GKClasses/GKCropBorderView.m; sourceTree = "<group>"; };
+		B2E0F9B4C9CDE4AFEA8B161EF74FEEC8 /* GKImageCropViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GKImageCropViewController.h; path = GKClasses/GKImageCropViewController.h; sourceTree = "<group>"; };
+		BD0F7F4C5D1E5DC539D65ACEAFC56ECA /* GKImageCropView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GKImageCropView.m; path = GKClasses/GKImageCropView.m; sourceTree = "<group>"; };
+		C454C321420E241FB0FA36BD6C9311F7 /* GKResizeableCropOverlayView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GKResizeableCropOverlayView.m; path = GKClasses/GKResizeableCropOverlayView.m; sourceTree = "<group>"; };
+		C803218F97D5ADF2101653D987EFF387 /* GKImagePicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GKImagePicker.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D64B681BE23C019BAF5F30581AEE5547 /* GKResizeableCropOverlayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GKResizeableCropOverlayView.h; path = GKClasses/GKResizeableCropOverlayView.h; sourceTree = "<group>"; };
+		E34FA1D139A94CFE10E35C903E285B99 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E70F4C959256FCD02F31FCBC2C404616 /* GKImagePicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GKImagePicker-Info.plist"; sourceTree = "<group>"; };
+		ED4B8CB17B73FDD0B08692D2E8E05169 /* GKImagePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GKImagePicker.m; path = GKClasses/GKImagePicker.m; sourceTree = "<group>"; };
+		F987D963099F18BF1AA82CF93AEE5BF8 /* GKImagePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GKImagePicker.h; path = GKClasses/GKImagePicker.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6503D41FEA89D09B09B79ACD631F4B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF8FC68107FD19F5D0EAFF3002983BF4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		085B007D4D7BDF563E94A12065A8BF5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F64789750F70F6C4ED4FA53E2DF683F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0E074C38F2AB7A019594C5485AAC950C = {
+			isa = PBXGroup;
+			children = (
+				085B007D4D7BDF563E94A12065A8BF5B /* Frameworks */,
+				98EE24DFE4CDA5DE26848D54A29609F6 /* GKImagePicker */,
+				86F76267C6E134AA9345A400FEE50A3A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F64789750F70F6C4ED4FA53E2DF683F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				29D0AF76E0F62E217FAE1485D87EB462 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7561027718E9B57350D6E23BBD6C80B0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				71DA4C4CDC867733B702095ADE3B74BE /* GKImagePicker.modulemap */,
+				A0A2307EB89FD786CEA258ADC258EDA6 /* GKImagePicker.xcconfig */,
+				41D5491319982BF60A1267452E02AC5D /* GKImagePicker-dummy.m */,
+				E70F4C959256FCD02F31FCBC2C404616 /* GKImagePicker-Info.plist */,
+				336552A54E445A22E9109CE012D338B9 /* GKImagePicker-prefix.pch */,
+				92CB754FF2E8E3359ADBBF9586031D6A /* GKImagePicker-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "GKImagePickerExample/Pods/Target Support Files/GKImagePicker";
+			sourceTree = "<group>";
+		};
+		86F76267C6E134AA9345A400FEE50A3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07110A98D8E2CC6B8CA343B8E37750B4 /* GKImagePicker.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98EE24DFE4CDA5DE26848D54A29609F6 /* GKImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				79598B431FECC00C0383254DF16029B9 /* GKCropBorderView.h */,
+				ADCA4BC16DB3813DEA5A7EE485F6D2E9 /* GKCropBorderView.m */,
+				8ECAC1218F1080BE9DA10C6A70D15EAC /* GKImageCropOverlayView.h */,
+				4E5E9AADF2FDD8B1B122CFCB99A232FE /* GKImageCropOverlayView.m */,
+				01995853F8E83A95D815D58CBCA67757 /* GKImageCropView.h */,
+				BD0F7F4C5D1E5DC539D65ACEAFC56ECA /* GKImageCropView.m */,
+				B2E0F9B4C9CDE4AFEA8B161EF74FEEC8 /* GKImageCropViewController.h */,
+				69BE65787AC7AA8336E649C8324A8CC5 /* GKImageCropViewController.m */,
+				F987D963099F18BF1AA82CF93AEE5BF8 /* GKImagePicker.h */,
+				ED4B8CB17B73FDD0B08692D2E8E05169 /* GKImagePicker.m */,
+				D64B681BE23C019BAF5F30581AEE5547 /* GKResizeableCropOverlayView.h */,
+				C454C321420E241FB0FA36BD6C9311F7 /* GKResizeableCropOverlayView.m */,
+				C09E41EE9C69E5E1BB5307420C270BB8 /* Pod */,
+				7561027718E9B57350D6E23BBD6C80B0 /* Support Files */,
+			);
+			name = GKImagePicker;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C09E41EE9C69E5E1BB5307420C270BB8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C803218F97D5ADF2101653D987EFF387 /* GKImagePicker.podspec */,
+				E34FA1D139A94CFE10E35C903E285B99 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A32316C7B2CCF301E7750B7C9C74E73E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EF27442AE1F012E1AF73A85B6575805 /* GKCropBorderView.h in Headers */,
+				C3C901FC3D02B2A7C3DC23EDB6BA8331 /* GKImageCropOverlayView.h in Headers */,
+				69F52F29A683CF4C38704F5A0CEF2589 /* GKImageCropView.h in Headers */,
+				B36B695703FA47C8F38F30B974560666 /* GKImageCropViewController.h in Headers */,
+				7FFCB3422732C321CC6D100786797E90 /* GKImagePicker-umbrella.h in Headers */,
+				AC81B17C5941505687E8B6E5BC6C265A /* GKImagePicker.h in Headers */,
+				91F39B5C59A884E4037E382AFCC8077B /* GKResizeableCropOverlayView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D7CDBE9B1FC9F7845C7548F0D1EF246D /* GKImagePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25691B8B8391C8B8B40835F55DEF341D /* Build configuration list for PBXNativeTarget "GKImagePicker" */;
+			buildPhases = (
+				A32316C7B2CCF301E7750B7C9C74E73E /* Headers */,
+				F9578B063234364C9BADC7FDF214CFB3 /* Sources */,
+				F6503D41FEA89D09B09B79ACD631F4B1 /* Frameworks */,
+				E260C5B81B64B3D0F28E4798D6897B51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GKImagePicker;
+			productName = GKImagePicker;
+			productReference = 07110A98D8E2CC6B8CA343B8E37750B4 /* GKImagePicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2B99A099449622EDFAA477705924086 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = E62711CA9B9BB578DC7505273F649C61 /* Build configuration list for PBXProject "GKImagePicker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0E074C38F2AB7A019594C5485AAC950C;
+			productRefGroup = 86F76267C6E134AA9345A400FEE50A3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7CDBE9B1FC9F7845C7548F0D1EF246D /* GKImagePicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E260C5B81B64B3D0F28E4798D6897B51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9578B063234364C9BADC7FDF214CFB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D48737E634E232B5B9BA9DC3D0A62BD2 /* GKCropBorderView.m in Sources */,
+				27EA9927203F3BC0454E77DC75BC1763 /* GKImageCropOverlayView.m in Sources */,
+				1380FA8663E85E0BCE712AE357C4219F /* GKImageCropView.m in Sources */,
+				ACEF1790B0F102E1588B097E6CAC8BBE /* GKImageCropViewController.m in Sources */,
+				28ED2D822460843780EA08845E80DECD /* GKImagePicker-dummy.m in Sources */,
+				E8DB24D1F19C9786282ECD4893020ADE /* GKImagePicker.m in Sources */,
+				1794E9FD53FFF3B8B5F9B0A446DA5E22 /* GKResizeableCropOverlayView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		007D383CB4756F0F351C93008BC11E57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		302CF347E82979A1F2400CBB2FC1FAA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0A2307EB89FD786CEA258ADC258EDA6 /* GKImagePicker.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GKImagePicker/GKImagePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GKImagePicker/GKImagePicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/GKImagePicker/GKImagePicker.modulemap";
+				PRODUCT_MODULE_NAME = GKImagePicker;
+				PRODUCT_NAME = GKImagePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4AA675E74562FC25C3FB323C58ED030B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0A2307EB89FD786CEA258ADC258EDA6 /* GKImagePicker.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GKImagePicker/GKImagePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GKImagePicker/GKImagePicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/GKImagePicker/GKImagePicker.modulemap";
+				PRODUCT_MODULE_NAME = GKImagePicker;
+				PRODUCT_NAME = GKImagePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		711322B48B3C0C253B58F7D209F9A349 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25691B8B8391C8B8B40835F55DEF341D /* Build configuration list for PBXNativeTarget "GKImagePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				302CF347E82979A1F2400CBB2FC1FAA0 /* Debug */,
+				4AA675E74562FC25C3FB323C58ED030B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E62711CA9B9BB578DC7505273F649C61 /* Build configuration list for PBXProject "GKImagePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				007D383CB4756F0F351C93008BC11E57 /* Debug */,
+				711322B48B3C0C253B58F7D209F9A349 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2B99A099449622EDFAA477705924086 /* Project object */;
+}

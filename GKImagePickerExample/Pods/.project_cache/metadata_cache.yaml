@@ -1,0 +1,8 @@
+GKImagePicker:
+  LABEL: GKImagePicker
+  PROJECT_PATH: "/Users/jeong/Documents/GitHub/GKImagePicker/GKImagePickerExample/Pods/GKImagePicker.xcodeproj"
+  UUID: D7CDBE9B1FC9F7845C7548F0D1EF246D
+Pods-GKImagePickerExample:
+  LABEL: Pods-GKImagePickerExample
+  PROJECT_PATH: "/Users/jeong/Documents/GitHub/GKImagePicker/GKImagePickerExample/Pods/Pods.xcodeproj"
+  UUID: 8D0D9CE4FFFA80BC34F626BDB4EDA8A3

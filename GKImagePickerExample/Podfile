@@ -1,0 +1,18 @@
+source 'https://cdn.cocoapods.org/'
+
+install! 'cocoapods',
+  :generate_multiple_pod_projects => true,
+  :incremental_installation => true,
+  :disable_input_output_paths => true
+
+inhibit_all_warnings!
+
+project 'GKImagePickerExample.xcodeproj'
+workspace 'GKImagePickerExample.xcworkspace'
+
+target 'GKImagePickerExample' do
+    platform :ios, '12.0'
+    use_frameworks!
+
+    pod 'GKImagePicker', :path => '../'
+end

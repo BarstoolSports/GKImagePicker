@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E85D6548A1F25E9826B6B3A /* Pods_GKImagePickerExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 760A4D0512FC75D0F0F0CB46 /* Pods_GKImagePickerExample.framework */; };
+		5790354122EB5DB700AF081C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5790354022EB5DB700AF081C /* AppDelegate.swift */; };
+		5790354322EB5DB700AF081C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5790354222EB5DB700AF081C /* ViewController.swift */; };
+		5790354622EB5DB700AF081C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5790354422EB5DB700AF081C /* Main.storyboard */; };
+		5790354822EB5DB700AF081C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5790354722EB5DB700AF081C /* Assets.xcassets */; };
+		5790354B22EB5DB700AF081C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5790354922EB5DB700AF081C /* LaunchScreen.storyboard */; };
+		5790355622EB5DB700AF081C /* GKImagePickerExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5790355522EB5DB700AF081C /* GKImagePickerExampleTests.swift */; };
+		5790356122EB5DB800AF081C /* GKImagePickerExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5790356022EB5DB800AF081C /* GKImagePickerExampleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5790355222EB5DB700AF081C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5790353522EB5DB700AF081C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5790353C22EB5DB700AF081C;
+			remoteInfo = GKImagePickerExample;
+		};
+		5790355D22EB5DB800AF081C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5790353522EB5DB700AF081C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5790353C22EB5DB700AF081C;
+			remoteInfo = GKImagePickerExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5790353D22EB5DB700AF081C /* GKImagePickerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GKImagePickerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5790354022EB5DB700AF081C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5790354222EB5DB700AF081C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5790354522EB5DB700AF081C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5790354722EB5DB700AF081C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5790354A22EB5DB700AF081C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5790354C22EB5DB700AF081C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5790355122EB5DB700AF081C /* GKImagePickerExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GKImagePickerExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5790355522EB5DB700AF081C /* GKImagePickerExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GKImagePickerExampleTests.swift; sourceTree = "<group>"; };
+		5790355722EB5DB700AF081C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5790355C22EB5DB800AF081C /* GKImagePickerExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GKImagePickerExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5790356022EB5DB800AF081C /* GKImagePickerExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GKImagePickerExampleUITests.swift; sourceTree = "<group>"; };
+		5790356222EB5DB800AF081C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AA8A2D5342E0C66F34692F3 /* Pods-GKImagePickerExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GKImagePickerExample.release.xcconfig"; path = "Target Support Files/Pods-GKImagePickerExample/Pods-GKImagePickerExample.release.xcconfig"; sourceTree = "<group>"; };
+		760A4D0512FC75D0F0F0CB46 /* Pods_GKImagePickerExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GKImagePickerExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D49A800ABBB38981251CF72 /* Pods-GKImagePickerExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GKImagePickerExample.debug.xcconfig"; path = "Target Support Files/Pods-GKImagePickerExample/Pods-GKImagePickerExample.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5790353A22EB5DB700AF081C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E85D6548A1F25E9826B6B3A /* Pods_GKImagePickerExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5790354E22EB5DB700AF081C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5790355922EB5DB800AF081C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5790353422EB5DB700AF081C = {
+			isa = PBXGroup;
+			children = (
+				5790353F22EB5DB700AF081C /* GKImagePickerExample */,
+				5790355422EB5DB700AF081C /* GKImagePickerExampleTests */,
+				5790355F22EB5DB800AF081C /* GKImagePickerExampleUITests */,
+				5790353E22EB5DB700AF081C /* Products */,
+				74207EC39DA1A25A9D09F1D4 /* Pods */,
+				CAC7F060343BCE0F4F83D263 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5790353E22EB5DB700AF081C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5790353D22EB5DB700AF081C /* GKImagePickerExample.app */,
+				5790355122EB5DB700AF081C /* GKImagePickerExampleTests.xctest */,
+				5790355C22EB5DB800AF081C /* GKImagePickerExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5790353F22EB5DB700AF081C /* GKImagePickerExample */ = {
+			isa = PBXGroup;
+			children = (
+				5790354022EB5DB700AF081C /* AppDelegate.swift */,
+				5790354222EB5DB700AF081C /* ViewController.swift */,
+				5790354422EB5DB700AF081C /* Main.storyboard */,
+				5790354722EB5DB700AF081C /* Assets.xcassets */,
+				5790354922EB5DB700AF081C /* LaunchScreen.storyboard */,
+				5790354C22EB5DB700AF081C /* Info.plist */,
+			);
+			path = GKImagePickerExample;
+			sourceTree = "<group>";
+		};
+		5790355422EB5DB700AF081C /* GKImagePickerExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				5790355522EB5DB700AF081C /* GKImagePickerExampleTests.swift */,
+				5790355722EB5DB700AF081C /* Info.plist */,
+			);
+			path = GKImagePickerExampleTests;
+			sourceTree = "<group>";
+		};
+		5790355F22EB5DB800AF081C /* GKImagePickerExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5790356022EB5DB800AF081C /* GKImagePickerExampleUITests.swift */,
+				5790356222EB5DB800AF081C /* Info.plist */,
+			);
+			path = GKImagePickerExampleUITests;
+			sourceTree = "<group>";
+		};
+		74207EC39DA1A25A9D09F1D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D49A800ABBB38981251CF72 /* Pods-GKImagePickerExample.debug.xcconfig */,
+				6AA8A2D5342E0C66F34692F3 /* Pods-GKImagePickerExample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CAC7F060343BCE0F4F83D263 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				760A4D0512FC75D0F0F0CB46 /* Pods_GKImagePickerExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5790353C22EB5DB700AF081C /* GKImagePickerExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5790356522EB5DB800AF081C /* Build configuration list for PBXNativeTarget "GKImagePickerExample" */;
+			buildPhases = (
+				1EE6522CFAA8F4F124BD8D4B /* [CP] Check Pods Manifest.lock */,
+				5790353922EB5DB700AF081C /* Sources */,
+				5790353A22EB5DB700AF081C /* Frameworks */,
+				5790353B22EB5DB700AF081C /* Resources */,
+				2DB33C7C43D7B7045AEEDC1C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GKImagePickerExample;
+			productName = GKImagePickerExample;
+			productReference = 5790353D22EB5DB700AF081C /* GKImagePickerExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5790355022EB5DB700AF081C /* GKImagePickerExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5790356822EB5DB800AF081C /* Build configuration list for PBXNativeTarget "GKImagePickerExampleTests" */;
+			buildPhases = (
+				5790354D22EB5DB700AF081C /* Sources */,
+				5790354E22EB5DB700AF081C /* Frameworks */,
+				5790354F22EB5DB700AF081C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5790355322EB5DB700AF081C /* PBXTargetDependency */,
+			);
+			name = GKImagePickerExampleTests;
+			productName = GKImagePickerExampleTests;
+			productReference = 5790355122EB5DB700AF081C /* GKImagePickerExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5790355B22EB5DB800AF081C /* GKImagePickerExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5790356B22EB5DB800AF081C /* Build configuration list for PBXNativeTarget "GKImagePickerExampleUITests" */;
+			buildPhases = (
+				5790355822EB5DB800AF081C /* Sources */,
+				5790355922EB5DB800AF081C /* Frameworks */,
+				5790355A22EB5DB800AF081C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5790355E22EB5DB800AF081C /* PBXTargetDependency */,
+			);
+			name = GKImagePickerExampleUITests;
+			productName = GKImagePickerExampleUITests;
+			productReference = 5790355C22EB5DB800AF081C /* GKImagePickerExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5790353522EB5DB700AF081C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Barstool Sports";
+				TargetAttributes = {
+					5790353C22EB5DB700AF081C = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					5790355022EB5DB700AF081C = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 5790353C22EB5DB700AF081C;
+					};
+					5790355B22EB5DB800AF081C = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 5790353C22EB5DB700AF081C;
+					};
+				};
+			};
+			buildConfigurationList = 5790353822EB5DB700AF081C /* Build configuration list for PBXProject "GKImagePickerExample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5790353422EB5DB700AF081C;
+			productRefGroup = 5790353E22EB5DB700AF081C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5790353C22EB5DB700AF081C /* GKImagePickerExample */,
+				5790355022EB5DB700AF081C /* GKImagePickerExampleTests */,
+				5790355B22EB5DB800AF081C /* GKImagePickerExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5790353B22EB5DB700AF081C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5790354B22EB5DB700AF081C /* LaunchScreen.storyboard in Resources */,
+				5790354822EB5DB700AF081C /* Assets.xcassets in Resources */,
+				5790354622EB5DB700AF081C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5790354F22EB5DB700AF081C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5790355A22EB5DB800AF081C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1EE6522CFAA8F4F124BD8D4B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GKImagePickerExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2DB33C7C43D7B7045AEEDC1C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GKImagePickerExample/Pods-GKImagePickerExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5790353922EB5DB700AF081C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5790354322EB5DB700AF081C /* ViewController.swift in Sources */,
+				5790354122EB5DB700AF081C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5790354D22EB5DB700AF081C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5790355622EB5DB700AF081C /* GKImagePickerExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5790355822EB5DB800AF081C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5790356122EB5DB800AF081C /* GKImagePickerExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5790355322EB5DB700AF081C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5790353C22EB5DB700AF081C /* GKImagePickerExample */;
+			targetProxy = 5790355222EB5DB700AF081C /* PBXContainerItemProxy */;
+		};
+		5790355E22EB5DB800AF081C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5790353C22EB5DB700AF081C /* GKImagePickerExample */;
+			targetProxy = 5790355D22EB5DB800AF081C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5790354422EB5DB700AF081C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5790354522EB5DB700AF081C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5790354922EB5DB700AF081C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5790354A22EB5DB700AF081C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5790356322EB5DB800AF081C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5790356422EB5DB800AF081C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5790356622EB5DB800AF081C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D49A800ABBB38981251CF72 /* Pods-GKImagePickerExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7472F6D75U;
+				INFOPLIST_FILE = GKImagePickerExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.barstoolsports.GKImagePickerExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5790356722EB5DB800AF081C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AA8A2D5342E0C66F34692F3 /* Pods-GKImagePickerExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7472F6D75U;
+				INFOPLIST_FILE = GKImagePickerExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.barstoolsports.GKImagePickerExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5790356922EB5DB800AF081C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7472F6D75U;
+				INFOPLIST_FILE = GKImagePickerExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.barstoolsports.GKImagePickerExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GKImagePickerExample.app/GKImagePickerExample";
+			};
+			name = Debug;
+		};
+		5790356A22EB5DB800AF081C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7472F6D75U;
+				INFOPLIST_FILE = GKImagePickerExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.barstoolsports.GKImagePickerExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GKImagePickerExample.app/GKImagePickerExample";
+			};
+			name = Release;
+		};
+		5790356C22EB5DB800AF081C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7472F6D75U;
+				INFOPLIST_FILE = GKImagePickerExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.barstoolsports.GKImagePickerExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GKImagePickerExample;
+			};
+			name = Debug;
+		};
+		5790356D22EB5DB800AF081C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7472F6D75U;
+				INFOPLIST_FILE = GKImagePickerExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.barstoolsports.GKImagePickerExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GKImagePickerExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5790353822EB5DB700AF081C /* Build configuration list for PBXProject "GKImagePickerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5790356322EB5DB800AF081C /* Debug */,
+				5790356422EB5DB800AF081C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5790356522EB5DB800AF081C /* Build configuration list for PBXNativeTarget "GKImagePickerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5790356622EB5DB800AF081C /* Debug */,
+				5790356722EB5DB800AF081C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5790356822EB5DB800AF081C /* Build configuration list for PBXNativeTarget "GKImagePickerExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5790356922EB5DB800AF081C /* Debug */,
+				5790356A22EB5DB800AF081C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5790356B22EB5DB800AF081C /* Build configuration list for PBXNativeTarget "GKImagePickerExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5790356C22EB5DB800AF081C /* Debug */,
+				5790356D22EB5DB800AF081C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5790353522EB5DB700AF081C /* Project object */;
+}

@@ -1,0 +1,29 @@
+BUILD_CONFIGURATIONS:
+  Debug: :debug
+  Release: :release
+CACHE_KEYS:
+  GKImagePicker:
+    BUILD_SETTINGS_CHECKSUM:
+      GKImagePicker: 12c8ddf70c4ba2bbefad44d3ef43621e
+    CHECKSUM: cebbdb79a44a59b3703b1b406e1131b430c4ac51
+    FILES:
+      - "/Users/jeong/Documents/GitHub/GKImagePicker/GKClasses/GKCropBorderView.h"
+      - "/Users/jeong/Documents/GitHub/GKImagePicker/GKClasses/GKCropBorderView.m"
+      - "/Users/jeong/Documents/GitHub/GKImagePicker/GKClasses/GKImageCropOverlayView.h"
+      - "/Users/jeong/Documents/GitHub/GKImagePicker/GKClasses/GKImageCropOverlayView.m"
+      - "/Users/jeong/Documents/GitHub/GKImagePicker/GKClasses/GKImageCropView.h"
+      - "/Users/jeong/Documents/GitHub/GKImagePicker/GKClasses/GKImageCropView.m"
+      - "/Users/jeong/Documents/GitHub/GKImagePicker/GKClasses/GKImageCropViewController.h"
+      - "/Users/jeong/Documents/GitHub/GKImagePicker/GKClasses/GKImageCropViewController.m"
+      - "/Users/jeong/Documents/GitHub/GKImagePicker/GKClasses/GKImagePicker.h"
+      - "/Users/jeong/Documents/GitHub/GKImagePicker/GKClasses/GKImagePicker.m"
+      - "/Users/jeong/Documents/GitHub/GKImagePicker/GKClasses/GKResizeableCropOverlayView.h"
+      - "/Users/jeong/Documents/GitHub/GKImagePicker/GKClasses/GKResizeableCropOverlayView.m"
+      - "/Users/jeong/Documents/GitHub/GKImagePicker/README.md"
+    SPECS:
+      - GKImagePicker (1.0.0)
+  Pods-GKImagePickerExample:
+    BUILD_SETTINGS_CHECKSUM:
+      Debug: 45b7caf369d11666538d0c59e2c3e892
+      Release: 45b7caf369d11666538d0c59e2c3e892
+OBJECT_VERSION: 50
