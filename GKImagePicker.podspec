@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'GKImagePicker'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'Image Crop Picker'
   s.homepage         = 'https://github.com/BarstoolSports/GKImagePicker'
   s.license          = 'MIT'
